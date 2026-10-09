@@ -1,10 +1,10 @@
 :root {
-  --navy: #17365d;
-  --blue: #2e74b5;
-  --ink: #172033;
-  --muted: #9b6573;
-  --surface: #f4f7fb;
-  --white: #ffffff;
+  --navy: #4345ec;
+  --blue: #5974eb;
+  --ink: #010103;
+  --muted: #3854f3;
+  --surface: #e4eaf1;
+  --white: #ebb3b3;
 }
 
 * { box-sizing: border-box; }
