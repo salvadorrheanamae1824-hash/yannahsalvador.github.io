@@ -1,3 +1,1 @@
-function showMessage() {
-    alert("Hello! Welcome to my website!");
-}
+ocument.getElementById('year').textContent = new Date().getFullYear();

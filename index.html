@@ -3,16 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
+    <meta name="description" content="Portfolio of Rheana Mae Salvador">
+    <title>Rheana Mae Salvador | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+            <a class="logo" href="#home">Rheana Mae Salvador</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-    <h1>Welcome to My Web Page</h1>
-    <p>This is my first website.</p>
+    <main>
+        <section id="home" class="hero container">
+            <div>
+                <p class="eyebrow">Hello, I am</p>
+                <h1>Rheana Mae Salvador</h1>
+                <p class="tagline">Chief Information Officer</p>
+                <p>I create clear, useful, and accessible digital experiences.</p>
+                <a class="button" href="#projects">View my work</a>
+            </div>
+            <img src="profile.jpg" alt="Profile photo of Rheana Mae Salvador" class="profile-photo">
+        </section>
 
-    <button onclick="showMessage()">Click Me</button>
+        <section id="about" class="section alt-bg">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am an Information Technology (IT) student who is eager to learn more about technology and computer programming. I enjoy exploring new things, improving my skills, and discovering how technology can solve problems in everyday life. Although I still have a lot to learn, I am willing to work hard and face challenges to achieve my goals. My dream is to become a successful IT professional and use my knowledge to create something meaningful in the future.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section container">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C PROGRAMMING</li>
+                <li>Cooking</li>
+                <li>Communication</li>
+                <li>Teamwork</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section alt-bg">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <article class="card">
+                        <img src="project-1.jpg" alt="Screenshot of Project One">
+                        <h3>STUDENT PROFILE</h3>
+                        <p>A simple C program that displays a formatted student profile, including personal details, course, and career goal. Built to practice basic output and text formatting in C programming.</p>
+                        <a href="#" aria-label="Open Project One">View project</a>
+                    </article>
+                     <article class="card">
+                      <img src="project-2.jpg" alt="Screenshot of Project Two">
+                        <h4>WELCOME TO CODING</h4>
+                        <p>My first C program — a welcoming introduction that displays decorative text and the coding philosophy: Think - Code - Create. Built to learn the fundamentals of C programming.</p>
+                        <a href="#" aria-label="Open Project Two">View project</a>
+                    </article>
+                    <article class="card">
+                      <img src="project-3.jpg" alt="Screenshot of Project Three">
+                        <h5>WEBPAGE PORTFOLIO</h5>
+                        <p>A personal portfolio website to showcase my school work and skills. Built with responsive design so it looks good on phones and computers.</p>
+                        <a href="#" aria-label="Open Project Three">View project</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:salvadorrheanamae1824@gmail.com">salvadorrheanamae1824@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/yannahsalvador">github.com/yannahsalvador</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p><span id="year"></span> Rheana Mae Salvador. Built with HTML and CSS.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
-</html>
+</html
